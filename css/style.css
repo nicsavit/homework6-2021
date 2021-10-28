@@ -6,7 +6,6 @@ body {
 
 header {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -95,6 +94,7 @@ header {
         flex-direction: row;
 
     }
+    
 }
 
 @media screen and (prefers-reduced-motion: reduce){
@@ -113,7 +113,8 @@ header {
     .nav_links{
         display: flex;
         flex-direction: row;
-        justify-content:space-around;
+        justify-content:space-evenly;
+        column-gap: 175px;
     }
     .card{
         display: flex;
@@ -124,7 +125,7 @@ header {
         display: flex;
         flex-direction: row;
         align-items: flex-end;
-        flex-flow: nowrap;
+        flex-wrap: nowrap;
     }
     #gallery {
         display: none;
