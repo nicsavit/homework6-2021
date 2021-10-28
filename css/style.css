@@ -20,14 +20,6 @@ header {
 .nav_item a:visited {
     color: blue;
 }
-.pricing {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
 .card {
     display: flex;
     flex-direction: column;
@@ -41,6 +33,15 @@ header {
     padding: 20px 0;
     border-radius: 7px 7px 0 0;
 }
+.pricing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
 
 .gallery {
     display: flex;
@@ -85,14 +86,21 @@ header {
         left:0px;
         right: 0px;
     }
-    .card {
-        display:flex;
-        flex-basis: 250px;
-    }
     .nav_links {
         display: flex;
         flex-direction: row;
 
+    }
+    .card {
+        display:flex;
+        flex-basis: 250px;
+    }
+    .pricing {
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
     }
     
 }
